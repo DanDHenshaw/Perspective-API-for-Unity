@@ -18,6 +18,8 @@ After the installation, you must setup the package.
 1. In Unity, head over the menu item "Tools/PerspectiveAPI/Data/Create".
 2. Perspective API is now installed but you must include your own API key. You can do this by editing the "PerspectiveData" file located in "Assets/PerspectiveAPI".
 3. APIs must be generated through "Google Cloud Platform" and you must request API access. Please read here: https://developers.perspectiveapi.com/s/docs-get-started?language=en_US
+4. Change the float called "Toxicity" located in "Assets/PerspectiveAPI/PerspectiveData" in order to increase the amount of toxicity allowed to pass the check.
+5. When wanting to check a strings toxicity type `PerspectiveAPI.CheckToxic(string)` - returns true (toxic) or false (not toxic)
 
 ---
 
